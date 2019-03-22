@@ -1,0 +1,59 @@
+body{
+    background-color: #ffffff;
+
+}
+
+
+#content{
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav"
+    "title . ."
+    ". img ."
+    ". p ."
+    "li . li"
+    "foot foot foot"
+}
+
+nav{
+    grid-row-start: nav;
+    grid-row-end: nav;
+    grid-column-start: nav;
+    grid-column-end: nav;
+
+}
+
+.navHeader{
+    display: inline;
+}
+
+#socialIcons{
+   margin-right: 5%;
+   display: inline;
+}
+
+#printIcon{
+    display: inline;
+}
+
+img{
+    margin-left: 5%;
+}
+
+
+#info{
+    /* grid-row-start: p;
+    grid-row-end: p;
+    grid-column-start: p;
+    grid-column-end: p; */
+    width: 60%;
+    align-content: center;
+    margin-left: 7%;
+    text-align: center;
+
+}
+
+form{
+    background-image: url("./img/list-bg.png");
+    
+}
