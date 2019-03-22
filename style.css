@@ -1,8 +1,9 @@
 body{
     background-color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
 
 }
-
 
 #content{
     display: grid;
@@ -16,44 +17,118 @@ body{
 }
 
 nav{
-    grid-row-start: nav;
-    grid-row-end: nav;
-    grid-column-start: nav;
-    grid-column-end: nav;
-
+    font-family: pacifico;
+    border-bottom: gray 2px dashed;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#logo {
+  float: left;
 }
 
 .navHeader{
     display: inline;
 }
+.navFooter{
+  display: inline;
+}
 
 #socialIcons{
    margin-right: 5%;
    display: inline;
+   margin-left: 40%;
 }
 
 #printIcon{
     display: inline;
 }
 
-img{
-    margin-left: 5%;
+#pizza{
+    margin-left: 15%;
 }
 
-
+#title {
+  display:inline;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 15%;
+}
+#postedOn {
+  width:60%;
+  margin-left: 1%;
+  opacity: .25;
+}
+#printer {
+  float: right;
+  margin-right: 13%;
+}
+#print {
+  float: right;
+  margin-top: -7px;
+  display: inline;
+  opacity: .25;
+}
 #info{
-    /* grid-row-start: p;
-    grid-row-end: p;
-    grid-column-start: p;
-    grid-column-end: p; */
-    width: 60%;
-    align-content: center;
+    width: 70%;
     margin-left: 7%;
-    text-align: center;
-
+    text-align: justify;
+    padding-left: 8%;
+    text-indent: 5%;
 }
 
 form{
     background-image: url("./img/list-bg.png");
-    
+    text-align: justify;
+    background-repeat: no-repeat;
+    margin-left: 12%;
+    font-family: Comic sans MS;
+    height: 150px;
+    padding: 30px;
+    border-bottom: grey 2px dashed;
+}
+.item2{
+  margin-left: 30%;
+}
+input[type=checkbox]:focus{
+  text-decoration: line-through;
+}
+footer{
+  display:inline;
+  text-align: center;
+}
+#vanessa{ 
+  margin-left:10%;
+}
+#van {
+  float:left;
+}
+.autor{
+  float: left;
+  margin-left:2%;
+}
+.blurb{
+  float: left;
+  margin-right: 10%;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+#shareRec{
+  float: right;
+  background-color: #CF654D;
+  color: #fff;
+  padding:2%;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#tinyLogo {
+  margin-top: 12%;
+  margin-left: -20%;
+}
+.copyRite {
+  opacity: .25;
+  margin-right: 8%;
 }

@@ -3,12 +3,13 @@
     <head>
     <title>Chocolate Pizza</title>
     <link rel= "stylesheet" type= "text/css" href= "./style.css">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     </head>
     <body>
             <nav>
-                    <img src= "./img/logo.png" alt= "Company Logo"/>
-                    <h3 class= "navHeader">Delicious</h3>
-                    <p class= "navHeader">The Best Food In Your Face</p>
+                    <img id="logo" src= "./img/logo.png" alt= "Company Logo"/>
+                    <h3 class= "navHeader">Delicious</h3> </br>
+                    <p class= "navFooter">The Best Food In Your Face</p>
                 <section id= "socialIcons">
                     <img src= "./img/fb-icon.png" alt= "Facebook Logo"/>
                     <img src= "./img/twit-icon.png" alt= "Twitter Logo"/>
@@ -24,39 +25,45 @@
                 </nav>
         <div id= "content">
 
-            <section>
+            <section id="title">
                 <h1>Chocolate Pizza</h1>
+                <p id="postedOn"> Posted on 15 DEC 2013/Desserts</p>
+                <img id="printer"src="./img/print-icon.png"/>
+                <p id="print">PRINT</p>
             </section>
-            <img src="./img/choco-pizza.png" alt= "Chocolate Pizza"/>
+            <img src="./img/choco-pizza.png" id="pizza" alt= "Chocolate Pizza"/>
             <article id= "info">
-                <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
-                <p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
-                <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.</p>
+                <p>Lemon drops powder apple pie I love jujubes cookie dessert. Sweet roll jelly beans jelly pastry cheesecake gingerbread. Marzipan I love chocolate bar I love apple pie gingerbread. Tootsie roll chocolate cake chocolate bar icing donut. I love chocolate jujubes cake lemon drops. I love ice cream chocolate bar. Pudding lollipop muffin. Lollipop brownie toffee oat cake soufflé danish chupa chups topping. Tootsie roll chupa chups I love fruitcake bear claw soufflé chocolate cake chocolate</p>
+                <p>Croissant chocolate cake toffee I love I love jelly-o pie I love marzipan. Bonbon cookie sweet. Caramels dragée wafer I love candy. I love pie macaroon sugar plum cake I love. Sesame snaps jujubes carrot cake tiramisu I love fruitcake danish apple pie ice cream. Jelly beans ice cream dessert. I love brownie donut apple pie lollipop sweet. Gummi bears chupa chups croissant. Sesame snaps croissant cotton candy jelly tart. Liquorice icing marzipan chocolate.</p>
+                <p>Tart apple pie sweet roll liquorice biscuit apple pie fruitcake fruitcake. Chocolate bar halvah chocolate. Cake pudding donut sesame snaps marshmallow brownie jelly. Bonbon ice cream I love cotton candy cake wafer I love. Pastry gingerbread lollipop ice cream chupa chups. Danish chocolate pudding dragée chupa chups croissant.</p>
             </article>
             <article id= "ingredients">
                <form>
-                   <input type="checkbox">1 1/2 cups milk
-                   <input type="checkbox">1 1/2 cups heavy cream <br>
+                   <input type="checkbox">
+                   <label>1 1/2 cups milk</label>
+                   <input class="item2"type="checkbox">1 1/2 cups heavy cream <br>
                    <input type="checkbox">1/2 cup mascarpone
-                   <input type="checkbox">1/3 gradulated sugar <br>
+                   <input class="item2" type="checkbox">1/3 gradulated sugar <br>
                    <input type="checkbox">1/2 tsp pink salt
-                   <input type="checkbox">2 eggs yolks <br>
+                   <input class="item2" type="checkbox">2 eggs yolks <br>
                    <input type="checkbox">1 lb Black Mission Figs
-                   <input type="checkbox">1 lemon, juiced <br>
+                   <input class="item2" type="checkbox">1 lemon, juiced <br>
                    <input type="checkbox">1/2 cup brown sugar
-                   <input type="checkbox">2 tbsp butter <br>
+                   <input class="item2" type="checkbox">2 tbsp butter <br>
                    <input type="checkbox">2-4 tbsp water
-                   <input type="checkbox">1 cup honey roasted pecans, roughly chopped <br>
+                   <input class="item2" type="checkbox">1 cup honey roasted pecans, roughly chopped <br>
                </form>
             </article>
             <footer>
-                <img src= "./img/van-pic.png"/>
-                <h3>Vanessa Stevenson</h3>
-                <p>Food enthusiast, photography fan. Add a pinch of ray foodism and that's pretty much what I am.</p>
-                <button type= "button">Share Recipe</button>
-                <img src= "./img/small-logo.png"/>
-                <p>Delicious &copy 2013 &middot All Rights Reserved.</p>
-                <p>Proudly published With Ghost.</p>
+              <div id="vanessa">
+                <img id="van"src= "./img/van-pic.png"/>
+                <h3 class="autor">Vanessa Stevenson</h3>
+                <p class="blurb">Food enthusiast, photography fan. Add a pinch of ray foodism and that's pretty much what I am.</p>
+              </div>
+                <button id="shareRec" type= "button">SHARE RECIPE</button>
+                <img id="tinyLogo" src= "./img/small-logo.png"/>
+                <p class="copyRite">Delicious &copy 2013 &middot All Rights Reserved.</p>
+                <p class="copyRite">Proudly published With Ghost.</p>
             </footer>
         </div>
 
